@@ -1,23 +1,23 @@
-const cors = require("cors");
-const express = require("express");
-const app = express();
 require("dotenv").config();
-
-app.use(cors());
-app.use(express.json());
+const express = require("express");
+mongoose = require("mongoose");
 
 // ========== ROUTE IMPORT START HERE!!! ========== //
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// ========== ROUTE IMPORT END HERE ========== //
+const auctionRoutes = require("./routes/auctionRoutes");
+
+
+const app = express();
+
+app.use(express.json());
+
+// ========== MONGOOSE CONNECTION START HERE!!! ========== //
+mongoose
+  .connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.log(err));
 
 // ========== ROOT ENDPOINT ========== //
 app.get("/", (req, res) => {
@@ -25,18 +25,8 @@ app.get("/", (req, res) => {
 });
 
 // ========== API START HERE!!! ========== //
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// ========== API END HERE ========== //
+app.use("/api/auctions", auctionRoutes);
+
 
 const PORT = process.env.PORT || 3000;
 app

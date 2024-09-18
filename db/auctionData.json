@@ -1,0 +1,153 @@
+[
+    {
+      "title": "Vintage Wooden Chair",
+      "description": "A sturdy, vintage wooden chair with a classic design. Minor wear and tear adds character.",
+      "start_price": 50,
+      "reserve_price": 100
+    },
+    {
+      "title": "Samsung Galaxy S21",
+      "description": "Lightly used Samsung Galaxy S21, 128GB, Phantom Gray. Includes original box and accessories.",
+      "start_price": 400,
+      "reserve_price": 600
+    },
+    {
+      "title": "Mountain Bike",
+      "description": "High-performance mountain bike with full suspension. Suitable for rough terrain. Recently serviced.",
+      "start_price": 300,
+      "reserve_price": 500
+    },
+    {
+      "title": "Dell XPS 13 Laptop",
+      "description": "Dell XPS 13 (2021 model), Intel i7 processor, 16GB RAM, 512GB SSD. Great condition with minimal signs of use.",
+      "start_price": 800,
+      "reserve_price": 1200
+    },
+    {
+      "title": "Sony PlayStation 5",
+      "description": "Brand new Sony PlayStation 5 console with two controllers. Sealed in original packaging.",
+      "start_price": 600,
+      "reserve_price": 800
+    },
+    {
+      "title": "Antique Persian Rug",
+      "description": "Handwoven Persian rug, approximately 50 years old. Intricate floral design in vibrant colors.",
+      "start_price": 1000,
+      "reserve_price": 1500
+    },
+    {
+      "title": "Apple MacBook Pro 16-inch",
+      "description": "Apple MacBook Pro (2021), M1 Pro chip, 16GB RAM, 1TB SSD. Space Gray. Lightly used.",
+      "start_price": 1500,
+      "reserve_price": 2000
+    },
+    {
+      "title": "Canon EOS R5 Camera",
+      "description": "Professional mirrorless camera with 45MP full-frame sensor. Includes two lenses.",
+      "start_price": 2500,
+      "reserve_price": 3000
+    },
+    {
+      "title": "Gaming PC - Intel i9",
+      "description": "Custom-built gaming PC with Intel i9 processor, 32GB RAM, and RTX 3080 graphics card.",
+      "start_price": 1800,
+      "reserve_price": 2200
+    },
+    {
+      "title": "Electric Scooter",
+      "description": "Eco-friendly electric scooter with a range of 30km. Great for commuting.",
+      "start_price": 200,
+      "reserve_price": 400
+    },
+    {
+      "title": "LG OLED 55-inch TV",
+      "description": "55-inch OLED TV from LG with stunning picture quality and smart TV functionality.",
+      "start_price": 900,
+      "reserve_price": 1200
+    },
+    {
+      "title": "Leather Recliner Sofa",
+      "description": "Luxurious leather recliner sofa in excellent condition. Brown color. Seats two people.",
+      "start_price": 500,
+      "reserve_price": 800
+    },
+    {
+      "title": "iPad Pro 12.9-inch",
+      "description": "Apple iPad Pro (2021), 12.9-inch display, M1 chip, 256GB storage. Excellent condition.",
+      "start_price": 900,
+      "reserve_price": 1200
+    },
+    {
+      "title": "Bose Noise-Cancelling Headphones",
+      "description": "Bose QuietComfort 45 noise-cancelling headphones. Black. Comes with carrying case.",
+      "start_price": 200,
+      "reserve_price": 300
+    },
+    {
+      "title": "KitchenAid Stand Mixer",
+      "description": "KitchenAid Artisan stand mixer with 5-quart bowl. Red. Ideal for baking enthusiasts.",
+      "start_price": 150,
+      "reserve_price": 300
+    },
+    {
+      "title": "Xbox Series X",
+      "description": "Microsoft Xbox Series X gaming console. Includes one controller and a game bundle.",
+      "start_price": 500,
+      "reserve_price": 700
+    },
+    {
+      "title": "GoPro HERO10",
+      "description": "GoPro HERO10 action camera. Perfect for outdoor adventures. 5.3K video resolution.",
+      "start_price": 350,
+      "reserve_price": 500
+    },
+    {
+      "title": "Dyson V11 Vacuum Cleaner",
+      "description": "Cordless Dyson V11 vacuum cleaner. Powerful suction and long-lasting battery.",
+      "start_price": 400,
+      "reserve_price": 600
+    },
+    {
+      "title": "Nike Air Jordan 1 Sneakers",
+      "description": "Limited edition Nike Air Jordan 1 sneakers, size 10. Brand new in box.",
+      "start_price": 250,
+      "reserve_price": 400
+    },
+    {
+      "title": "Herman Miller Office Chair",
+      "description": "Ergonomic Herman Miller office chair with adjustable features for ultimate comfort.",
+      "start_price": 600,
+      "reserve_price": 900
+    },
+    {
+      "title": "Fender Stratocaster Guitar",
+      "description": "Fender American Professional Stratocaster electric guitar. Sunburst finish.",
+      "start_price": 800,
+      "reserve_price": 1200
+    },
+    {
+      "title": "Samsung 4K Monitor",
+      "description": "Samsung 28-inch 4K UHD monitor with ultra-slim design. Great for work and gaming.",
+      "start_price": 300,
+      "reserve_price": 500
+    },
+    {
+      "title": "Louis Vuitton Handbag",
+      "description": "Authentic Louis Vuitton Neverfull MM handbag. Monogram canvas design.",
+      "start_price": 1200,
+      "reserve_price": 1500
+    },
+    {
+      "title": "DJI Mini 2 Drone",
+      "description": "DJI Mini 2 drone with 4K camera. Compact, lightweight, and easy to fly.",
+      "start_price": 400,
+      "reserve_price": 600
+    },
+    {
+      "title": "Sony WH-1000XM5 Headphones",
+      "description": "Sony wireless noise-cancelling headphones, latest model. Excellent sound quality.",
+      "start_price": 250,
+      "reserve_price": 350
+    }
+  ]
+  

@@ -1,11 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const auctionController = require('../controllers/auctionControllers');
+const auctionControllers = require('../controllers/auctionControllers');
 
-router.post('/seed', auctionController.seedAuctionData);
-router.get('/', auctionController.getAuctions);
-router.get('/search', auctionController.searchAuctionItems);
-router.post('/additem', auctionController.addAuctionItem);
-router.delete('/delete', auctionController.deleteAuctions);
+router.get('/', auctionControllers.getAllItems);
+router.post('/', auctionControllers.createItem);
+router.get('/:id', auctionControllers.getItemById);
+router.put('/:id', auctionControllers.updateItem);
+router.delete('/:id', auctionControllers.deleteItem);
 
 module.exports = router;
+

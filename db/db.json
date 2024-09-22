@@ -1,153 +1,1161 @@
 [
-    {
-      "title": "Vintage Wooden Chair",
-      "description": "A sturdy, vintage wooden chair with a classic design. Minor wear and tear adds character.",
-      "start_price": 50,
-      "reserve_price": 100
+  {
+      "name": "Vintage Wooden Chair",
+      "image": "/home&living/image1.png",
+      "start_bid": 50,
+      "current_bid": 75,
+      "buy_now": 150,
+      "project_details": {
+          "condition": "Used",
+          "colour": "Brown",
+          "item_length": 45,
+          "item_width": 40,
+          "item_height": 85,
+          "item_weight": 10,
+          "material": "Wood",
+          "features": "Handcrafted, Lightweight",
+          "manufacturer": {
+              "brand": "Antique Designs",
+              "make": "Classic Chair",
+              "model": "AD200"
+          },
+          "year_made": 1950
+      },
+      "shipping": {
+          "shipping": "Standard Shipping (5-7 days)",
+          "returns": "Returns accepted within 14 days",
+          "payment": "Credit Card, PayPal"
+      },
+      "description": "A beautiful vintage wooden chair, handcrafted with intricate designs. Perfect for collectors or those looking to add a rustic touch to their decor."
+  },
+  {
+      "name": "Modern Sofa Set",
+      "image": "/home&living/image2.png",
+      "start_bid": 300,
+      "current_bid": 350,
+      "buy_now": 600,
+      "project_details": {
+          "condition": "New",
+          "colour": "Gray",
+          "item_length": 200,
+          "item_width": 90,
+          "item_height": 85,
+          "item_weight": 50,
+          "material": "Fabric, Wood",
+          "features": "Comfortable, Durable",
+          "manufacturer": {
+              "brand": "Home Comfort",
+              "make": "Luxury Sofa",
+              "model": "HC2021"
+          },
+          "year_made": 2021
+      },
+      "shipping": {
+          "shipping": "Standard Shipping (5-7 days)",
+          "returns": "Returns accepted within 14 days",
+          "payment": "Credit Card, PayPal"
+      },
+      "description": "A modern sofa set that combines comfort and style. Perfect for any living room."
+  },
+  {
+      "name": "Ceramic Vase",
+      "image": "/home&living/image3.png",
+      "start_bid": 20,
+      "current_bid": 25,
+      "buy_now": 50,
+      "project_details": {
+          "condition": "New",
+          "colour": "White",
+          "item_length": 15,
+          "item_width": 15,
+          "item_height": 30,
+          "item_weight": 2,
+          "material": "Ceramic",
+          "features": "Hand-painted, Elegant",
+          "manufacturer": {
+              "brand": "Decor Art",
+              "make": "Classic Vase",
+              "model": "DA2020"
+          },
+          "year_made": 2020
+      },
+      "shipping": {
+          "shipping": "Standard Shipping (5-7 days)",
+          "returns": "Returns accepted within 14 days",
+          "payment": "Credit Card, PayPal"
+      },
+      "description": "An elegant ceramic vase, hand-painted with intricate designs. Perfect for home decor."
+  },
+  {
+      "name": "Dining Table Set",
+      "image": "/home&living/image4.png",
+      "start_bid": 200,
+      "current_bid": 250,
+      "buy_now": 500,
+      "project_details": {
+          "condition": "New",
+          "colour": "Brown",
+          "item_length": 150,
+          "item_width": 90,
+          "item_height": 75,
+          "item_weight": 40,
+          "material": "Wood",
+          "features": "Expandable, Durable",
+          "manufacturer": {
+              "brand": "Home Comfort",
+              "make": "Dining Set",
+              "model": "HC2021"
+          },
+          "year_made": 2021
+      },
+      "shipping": {
+          "shipping": "Standard Shipping (5-7 days)",
+          "returns": "Returns accepted within 14 days",
+          "payment": "Credit Card, PayPal"
+      },
+      "description": "A durable dining table set, perfect for family gatherings and dinners."
+  },
+  {
+      "name": "LED Floor Lamp",
+      "image": "/home&living/image5.png",
+      "start_bid": 30,
+      "current_bid": 35,
+      "buy_now": 70,
+      "project_details": {
+          "condition": "New",
+          "colour": "Black",
+          "item_length": 30,
+          "item_width": 30,
+          "item_height": 150,
+          "item_weight": 5,
+          "material": "Metal, Plastic",
+          "features": "Energy-efficient, Adjustable",
+          "manufacturer": {
+              "brand": "Bright Lights",
+              "make": "Floor Lamp",
+              "model": "BL2021"
+          },
+          "year_made": 2021
+      },
+      "shipping": {
+          "shipping": "Standard Shipping (5-7 days)",
+          "returns": "Returns accepted within 14 days",
+          "payment": "Credit Card, PayPal"
+      },
+      "description": "An energy-efficient LED floor lamp with adjustable height. Perfect for any room."
+  },
+  {
+    "name": "Antique Pocket Watch",
+    "image": "/antiques&collections/image1.png",
+    "start_bid": 100,
+    "current_bid": 150,
+    "buy_now": 300,
+    "project_details": {
+        "condition": "Used",
+        "colour": "Gold",
+        "item_length": 5,
+        "item_width": 5,
+        "item_height": 1,
+        "item_weight": 0.1,
+        "material": "Gold-plated",
+        "features": "Handcrafted, Vintage",
+        "manufacturer": {
+            "brand": "Classic Timepieces",
+            "make": "Pocket Watch",
+            "model": "CT1900"
+        },
+        "year_made": 1900
     },
-    {
-      "title": "Samsung Galaxy S21",
-      "description": "Lightly used Samsung Galaxy S21, 128GB, Phantom Gray. Includes original box and accessories.",
-      "start_price": 400,
-      "reserve_price": 600
+    "shipping": {
+        "shipping": "Standard Shipping (5-7 days)",
+        "returns": "Returns accepted within 14 days",
+        "payment": "Credit Card, PayPal"
     },
-    {
-      "title": "Mountain Bike",
-      "description": "High-performance mountain bike with full suspension. Suitable for rough terrain. Recently serviced.",
-      "start_price": 300,
-      "reserve_price": 500
+    "description": "A vintage gold-plated pocket watch, handcrafted with intricate details. A collector's item."
+},
+{
+    "name": "Vintage Typewriter",
+    "image": "/antiques&collections/image2.png",
+    "start_bid": 150,
+    "current_bid": 200,
+    "buy_now": 400,
+    "project_details": {
+        "condition": "Used",
+        "colour": "Black",
+        "item_length": 40,
+        "item_width": 30,
+        "item_height": 15,
+        "item_weight": 8,
+        "material": "Metal",
+        "features": "Functional, Collectible",
+        "manufacturer": {
+            "brand": "Classic Typewriters",
+            "make": "Vintage Typewriter",
+            "model": "CT1950"
+        },
+        "year_made": 1950
     },
-    {
-      "title": "Dell XPS 13 Laptop",
-      "description": "Dell XPS 13 (2021 model), Intel i7 processor, 16GB RAM, 512GB SSD. Great condition with minimal signs of use.",
-      "start_price": 800,
-      "reserve_price": 1200
+    "shipping": {
+        "shipping": "Standard Shipping (5-7 days)",
+        "returns": "Returns accepted within 14 days",
+        "payment": "Credit Card, PayPal"
     },
-    {
-      "title": "Sony PlayStation 5",
-      "description": "Brand new Sony PlayStation 5 console with two controllers. Sealed in original packaging.",
-      "start_price": 600,
-      "reserve_price": 800
+    "description": "A functional vintage typewriter, perfect for collectors and enthusiasts."
+},
+{
+    "name": "Antique Porcelain Doll",
+    "image": "/antiques&collections/image3.png",
+    "start_bid": 80,
+    "current_bid": 100,
+    "buy_now": 200,
+    "project_details": {
+        "condition": "Used",
+        "colour": "White",
+        "item_length": 30,
+        "item_width": 15,
+        "item_height": 10,
+        "item_weight": 1,
+        "material": "Porcelain",
+        "features": "Hand-painted, Collectible",
+        "manufacturer": {
+            "brand": "Classic Dolls",
+            "make": "Porcelain Doll",
+            "model": "CD1920"
+        },
+        "year_made": 1920
     },
-    {
-      "title": "Antique Persian Rug",
-      "description": "Handwoven Persian rug, approximately 50 years old. Intricate floral design in vibrant colors.",
-      "start_price": 1000,
-      "reserve_price": 1500
+    "shipping": {
+        "shipping": "Standard Shipping (5-7 days)",
+        "returns": "Returns accepted within 14 days",
+        "payment": "Credit Card, PayPal"
     },
-    {
-      "title": "Apple MacBook Pro 16-inch",
-      "description": "Apple MacBook Pro (2021), M1 Pro chip, 16GB RAM, 1TB SSD. Space Gray. Lightly used.",
-      "start_price": 1500,
-      "reserve_price": 2000
+    "description": "A hand-painted antique porcelain doll, perfect for collectors."
+},
+{
+    "name": "Vintage Gramophone",
+    "image": "/antiques&collections/image4.png",
+    "start_bid": 200,
+    "current_bid": 250,
+    "buy_now": 500,
+    "project_details": {
+        "condition": "Used",
+        "colour": "Brown",
+        "item_length": 50,
+        "item_width": 50,
+        "item_height": 70,
+        "item_weight": 15,
+        "material": "Wood, Metal",
+        "features": "Functional, Collectible",
+        "manufacturer": {
+            "brand": "Classic Audio",
+            "make": "Gramophone",
+            "model": "CA1930"
+        },
+        "year_made": 1930
     },
-    {
-      "title": "Canon EOS R5 Camera",
-      "description": "Professional mirrorless camera with 45MP full-frame sensor. Includes two lenses.",
-      "start_price": 2500,
-      "reserve_price": 3000
+    "shipping": {
+        "shipping": "Standard Shipping (5-7 days)",
+        "returns": "Returns accepted within 14 days",
+        "payment": "Credit Card, PayPal"
     },
-    {
-      "title": "Gaming PC - Intel i9",
-      "description": "Custom-built gaming PC with Intel i9 processor, 32GB RAM, and RTX 3080 graphics card.",
-      "start_price": 1800,
-      "reserve_price": 2200
+    "description": "A functional vintage gramophone, perfect for collectors and music enthusiasts."
+},
+{
+    "name": "Antique Silverware Set",
+    "image": "/antiques&collections/image5.png",
+    "start_bid": 120,
+    "current_bid": 150,
+    "buy_now": 300,
+    "project_details": {
+        "condition": "Used",
+        "colour": "Silver",
+        "item_length": 30,
+        "item_width": 20,
+        "item_height": 10,
+        "item_weight": 2,
+        "material": "Silver",
+        "features": "Handcrafted, Collectible",
+        "manufacturer": {
+            "brand": "Classic Silverware",
+            "make": "Silverware Set",
+            "model": "CS1940"
+        },
+        "year_made": 1940
     },
-    {
-      "title": "Electric Scooter",
-      "description": "Eco-friendly electric scooter with a range of 30km. Great for commuting.",
-      "start_price": 200,
-      "reserve_price": 400
+    "shipping": {
+        "shipping": "Standard Shipping (5-7 days)",
+        "returns": "Returns accepted within 14 days",
+        "payment": "Credit Card, PayPal"
     },
-    {
-      "title": "LG OLED 55-inch TV",
-      "description": "55-inch OLED TV from LG with stunning picture quality and smart TV functionality.",
-      "start_price": 900,
-      "reserve_price": 1200
-    },
-    {
-      "title": "Leather Recliner Sofa",
-      "description": "Luxurious leather recliner sofa in excellent condition. Brown color. Seats two people.",
-      "start_price": 500,
-      "reserve_price": 800
-    },
-    {
-      "title": "iPad Pro 12.9-inch",
-      "description": "Apple iPad Pro (2021), 12.9-inch display, M1 chip, 256GB storage. Excellent condition.",
-      "start_price": 900,
-      "reserve_price": 1200
-    },
-    {
-      "title": "Bose Noise-Cancelling Headphones",
-      "description": "Bose QuietComfort 45 noise-cancelling headphones. Black. Comes with carrying case.",
-      "start_price": 200,
-      "reserve_price": 300
-    },
-    {
-      "title": "KitchenAid Stand Mixer",
-      "description": "KitchenAid Artisan stand mixer with 5-quart bowl. Red. Ideal for baking enthusiasts.",
-      "start_price": 150,
-      "reserve_price": 300
-    },
-    {
-      "title": "Xbox Series X",
-      "description": "Microsoft Xbox Series X gaming console. Includes one controller and a game bundle.",
-      "start_price": 500,
-      "reserve_price": 700
-    },
-    {
-      "title": "GoPro HERO10",
-      "description": "GoPro HERO10 action camera. Perfect for outdoor adventures. 5.3K video resolution.",
-      "start_price": 350,
-      "reserve_price": 500
-    },
-    {
-      "title": "Dyson V11 Vacuum Cleaner",
-      "description": "Cordless Dyson V11 vacuum cleaner. Powerful suction and long-lasting battery.",
-      "start_price": 400,
-      "reserve_price": 600
-    },
-    {
-      "title": "Nike Air Jordan 1 Sneakers",
-      "description": "Limited edition Nike Air Jordan 1 sneakers, size 10. Brand new in box.",
-      "start_price": 250,
-      "reserve_price": 400
-    },
-    {
-      "title": "Herman Miller Office Chair",
-      "description": "Ergonomic Herman Miller office chair with adjustable features for ultimate comfort.",
-      "start_price": 600,
-      "reserve_price": 900
-    },
-    {
-      "title": "Fender Stratocaster Guitar",
-      "description": "Fender American Professional Stratocaster electric guitar. Sunburst finish.",
-      "start_price": 800,
-      "reserve_price": 1200
-    },
-    {
-      "title": "Samsung 4K Monitor",
-      "description": "Samsung 28-inch 4K UHD monitor with ultra-slim design. Great for work and gaming.",
-      "start_price": 300,
-      "reserve_price": 500
-    },
-    {
-      "title": "Louis Vuitton Handbag",
-      "description": "Authentic Louis Vuitton Neverfull MM handbag. Monogram canvas design.",
-      "start_price": 1200,
-      "reserve_price": 1500
-    },
-    {
-      "title": "DJI Mini 2 Drone",
-      "description": "DJI Mini 2 drone with 4K camera. Compact, lightweight, and easy to fly.",
-      "start_price": 400,
-      "reserve_price": 600
-    },
-    {
-      "title": "Sony WH-1000XM5 Headphones",
-      "description": "Sony wireless noise-cancelling headphones, latest model. Excellent sound quality.",
-      "start_price": 250,
-      "reserve_price": 350
-    }
-  ]
-  
+    "description": "A handcrafted antique silverware set, perfect for collectors and special occasions."
+},
+{
+  "name": "Abstract Painting",
+  "image": "/art/image1.png",
+  "start_bid": 200,
+  "current_bid": 250,
+  "buy_now": 500,
+  "project_details": {
+      "condition": "New",
+      "colour": "Multicolor",
+      "item_length": 100,
+      "item_width": 70,
+      "item_height": 2,
+      "item_weight": 5,
+      "material": "Canvas, Acrylic",
+      "features": "Hand-painted, Unique",
+      "manufacturer": {
+          "brand": "Artistic Creations",
+          "make": "Abstract Art",
+          "model": "AC2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A unique hand-painted abstract painting, perfect for modern home decor."
+},
+{
+  "name": "Landscape Oil Painting",
+  "image": "/art/image2.png",
+  "start_bid": 150,
+  "current_bid": 200,
+  "buy_now": 400,
+  "project_details": {
+      "condition": "New",
+      "colour": "Multicolor",
+      "item_length": 120,
+      "item_width": 80,
+      "item_height": 2,
+      "item_weight": 6,
+      "material": "Canvas, Oil",
+      "features": "Hand-painted, Scenic",
+      "manufacturer": {
+          "brand": "Artistic Creations",
+          "make": "Landscape Art",
+          "model": "AC2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A scenic hand-painted landscape oil painting, perfect for home or office decor."
+},
+{
+  "name": "Modern Sculpture",
+  "image": "/art/image3.png",
+  "start_bid": 300,
+  "current_bid": 350,
+  "buy_now": 600,
+  "project_details": {
+      "condition": "New",
+      "colour": "Silver",
+      "item_length": 50,
+      "item_width": 30,
+      "item_height": 100,
+      "item_weight": 20,
+      "material": "Metal",
+      "features": "Handcrafted, Unique",
+      "manufacturer": {
+          "brand": "Artistic Creations",
+          "make": "Modern Art",
+          "model": "AC2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A unique handcrafted modern sculpture, perfect for contemporary home decor."
+},
+{
+  "name": "Portrait Drawing",
+  "image": "/art/image4.png",
+  "start_bid": 100,
+  "current_bid": 150,
+  "buy_now": 300,
+  "project_details": {
+      "condition": "New",
+      "colour": "Black and White",
+      "item_length": 60,
+      "item_width": 40,
+      "item_height": 2,
+      "item_weight": 3,
+      "material": "Paper, Charcoal",
+      "features": "Hand-drawn, Detailed",
+      "manufacturer": {
+          "brand": "Artistic Creations",
+          "make": "Portrait Art",
+          "model": "AC2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A detailed hand-drawn portrait, perfect for art enthusiasts and collectors."
+},
+{
+  "name": "Abstract Metal Wall Art",
+  "image": "/art/image5.png",
+  "start_bid": 250,
+  "current_bid": 300,
+  "buy_now": 500,
+  "project_details": {
+      "condition": "New",
+      "colour": "Silver",
+      "item_length": 120,
+      "item_width": 80,
+      "item_height": 5,
+      "item_weight": 10,
+      "material": "Metal",
+      "features": "Handcrafted, Unique",
+      "manufacturer": {
+          "brand": "Artistic Creations",
+          "make": "Metal Art",
+          "model": "AC2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A unique handcrafted abstract metal wall art, perfect for modern home decor."
+},
+{
+  "name": "Baby Crib",
+  "image": "/babyGear/image1.png",
+  "start_bid": 150,
+  "current_bid": 200,
+  "buy_now": 400,
+  "project_details": {
+      "condition": "New",
+      "colour": "White",
+      "item_length": 120,
+      "item_width": 70,
+      "item_height": 100,
+      "item_weight": 20,
+      "material": "Wood",
+      "features": "Convertible, Safe",
+      "manufacturer": {
+          "brand": "Baby Gear",
+          "make": "Crib",
+          "model": "BG2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A convertible and safe baby crib, perfect for newborns and toddlers."
+},
+{
+  "name": "Baby Stroller",
+  "image": "/babyGear/image2.png",
+  "start_bid": 100,
+  "current_bid": 150,
+  "buy_now": 300,
+  "project_details": {
+      "condition": "New",
+      "colour": "Blue",
+      "item_length": 100,
+      "item_width": 50,
+      "item_height": 110,
+      "item_weight": 10,
+      "material": "Metal, Fabric",
+      "features": "Foldable, Lightweight",
+      "manufacturer": {
+          "brand": "Baby Gear",
+          "make": "Stroller",
+          "model": "BG2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A foldable and lightweight baby stroller, perfect for parents on the go."
+},
+{
+  "name": "Baby High Chair",
+  "image": "/babyGear/image3.png",
+  "start_bid": 50,
+  "current_bid": 75,
+  "buy_now": 150,
+  "project_details": {
+      "condition": "New",
+      "colour": "Green",
+      "item_length": 60,
+      "item_width": 50,
+      "item_height": 100,
+      "item_weight": 8,
+      "material": "Plastic, Metal",
+      "features": "Adjustable, Easy to clean",
+      "manufacturer": {
+          "brand": "Baby Gear",
+          "make": "High Chair",
+          "model": "BG2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "An adjustable and easy-to-clean baby high chair, perfect for feeding time."
+},
+{
+  "name": "Baby Monitor",
+ "image": "/babyGear/image4.png",
+  "start_bid": 80,
+  "current_bid": 100,
+  "buy_now": 200,
+  "project_details": {
+      "condition": "New",
+      "colour": "White",
+      "item_length": 15,
+      "item_width": 10,
+      "item_height": 20,
+      "item_weight": 1,
+      "material": "Plastic",
+      "features": "Video, Audio",
+      "manufacturer": {
+          "brand": "Baby Gear",
+          "make": "Monitor",
+          "model": "BG2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A video and audio baby monitor, perfect for keeping an eye on your baby."
+},
+{
+  "name": "Baby Swing",
+  "image": "/babyGear/image5.png",
+  "start_bid": 70,
+  "current_bid": 90,
+  "buy_now": 180,
+  "project_details": {
+      "condition": "New",
+      "colour": "Gray",
+      "item_length": 80,
+      "item_width": 60,
+      "item_height": 100,
+      "item_weight": 12,
+      "material": "Metal, Fabric",
+      "features": "Automatic, Safe",
+      "manufacturer": {
+          "brand": "Baby Gear",
+          "make": "Swing",
+          "model": "BG2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "An automatic and safe baby swing, perfect for soothing your baby."
+},
+{
+  "name": "Classic Novel",
+  "image": "/books&stationary/image1.png",
+  "start_bid": 10,
+  "current_bid": 15,
+  "buy_now": 30,
+  "project_details": {
+      "condition": "New",
+      "colour": "Multicolor",
+      "item_length": 20,
+      "item_width": 15,
+      "item_height": 5,
+      "item_weight": 0.5,
+      "material": "Paper",
+      "features": "Hardcover, Illustrated",
+      "manufacturer": {
+          "brand": "Book Publishers",
+          "make": "Novel",
+          "model": "BP2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A classic novel with hardcover and illustrations, perfect for book lovers."
+},
+{
+  "name": "Science Textbook",
+ "image": "/books&stationary/image2.png",
+  "start_bid": 20,
+  "current_bid": 25,
+  "buy_now": 50,
+  "project_details": {
+      "condition": "New",
+      "colour": "Blue",
+      "item_length": 25,
+      "item_width": 20,
+      "item_height": 5,
+      "item_weight": 1,
+      "material": "Paper",
+      "features": "Hardcover, Illustrated",
+      "manufacturer": {
+          "brand": "Book Publishers",
+          "make": "Textbook",
+          "model": "BP2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A science textbook with hardcover and illustrations, perfect for students."
+},
+{
+  "name": "Art Sketchbook",
+  "image": "/books&stationary/image3.png",
+  "start_bid": 15,
+  "current_bid": 20,
+  "buy_now": 40,
+  "project_details": {
+      "condition": "New",
+      "colour": "Black",
+      "item_length": 30,
+      "item_width": 25,
+      "item_height": 3,
+      "item_weight": 0.8,
+      "material": "Paper",
+      "features": "Hardcover, Acid-free",
+      "manufacturer": {
+          "brand": "Book Publishers",
+          "make": "Sketchbook",
+          "model": "BP2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A hardcover and acid-free art sketchbook, perfect for artists."
+},
+{
+  "name": "Office Planner",
+  "image": "/books&stationary/image4.png",
+  "start_bid": 10,
+  "current_bid": 15,
+  "buy_now": 30,
+  "project_details": {
+      "condition": "New",
+      "colour": "Red",
+      "item_length": 20,
+      "item_width": 15,
+      "item_height": 2,
+      "item_weight": 0.5,
+      "material": "Paper",
+      "features": "Hardcover, Monthly",
+      "manufacturer": {
+          "brand": "Book Publishers",
+          "make": "Planner",
+          "model": "BP2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A hardcover monthly office planner, perfect for organizing your schedule."
+},
+{
+  "name": "Children's Storybook",
+"image": "/books&stationary/image5.png",
+  "start_bid": 10,
+  "current_bid": 15,
+  "buy_now": 30,
+  "project_details": {
+      "condition": "New",
+      "colour": "Multicolor",
+      "item_length": 25,
+      "item_width": 20,
+      "item_height": 2,
+      "item_weight": 0.4,
+      "material": "Paper",
+      "features": "Hardcover, Illustrated",
+      "manufacturer": {
+          "brand": "Book Publishers",
+          "make": "Storybook",
+          "model": "BP2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A hardcover illustrated children's storybook, perfect for bedtime stories."
+},
+{
+  "name": "Electric Drill",
+  "image": "/building&renovation/image1.png",
+  "start_bid": 50,
+  "current_bid": 75,
+  "buy_now": 150,
+  "project_details": {
+      "condition": "New",
+      "colour": "Black",
+      "item_length": 30,
+      "item_width": 10,
+      "item_height": 20,
+      "item_weight": 2,
+      "material": "Metal, Plastic",
+      "features": "Cordless, Rechargeable",
+      "manufacturer": {
+          "brand": "Tool Masters",
+          "make": "Drill",
+          "model": "TM2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A cordless and rechargeable electric drill, perfect for building and renovation projects."
+},
+{
+  "name": "Hammer",
+  "image": "/building&renovation/image2.png",
+  "start_bid": 10,
+  "current_bid": 15,
+  "buy_now": 30,
+  "project_details": {
+      "condition": "New",
+      "colour": "Silver",
+      "item_length": 30,
+      "item_width": 10,
+      "item_height": 5,
+      "item_weight": 1,
+      "material": "Metal, Wood",
+      "features": "Ergonomic, Durable",
+      "manufacturer": {
+          "brand": "Tool Masters",
+          "make": "Hammer",
+          "model": "TM2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "An ergonomic and durable hammer, perfect for building and renovation projects."
+},
+{
+  "name": "Screwdriver Set",
+  "image": "/building&renovation/image3.png",
+  "start_bid": 20,
+  "current_bid": 25,
+  "buy_now": 50,
+  "project_details": {
+      "condition": "New",
+      "colour": "Yellow",
+      "item_length": 25,
+      "item_width": 15,
+      "item_height": 5,
+      "item_weight": 1,
+      "material": "Metal, Plastic",
+      "features": "Multi-size, Durable",
+      "manufacturer": {
+          "brand": "Tool Masters",
+          "make": "Screwdriver Set",
+          "model": "TM2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A multi-size and durable screwdriver set, perfect for building and renovation projects."
+},
+{
+  "name": "Measuring Tape",
+  "image": "/building&renovation/image4.png",
+  "start_bid": 5,
+  "current_bid": 10,
+  "buy_now": 20,
+  "project_details": {
+      "condition": "New",
+      "colour": "Black",
+      "item_length": 10,
+      "item_width": 5,
+      "item_height": 2,
+      "item_weight": 0.2,
+      "material": "Metal, Plastic",
+      "features": "Retractable, Durable",
+      "manufacturer": {
+          "brand": "Tool Masters",
+          "make": "Measuring Tape",
+          "model": "TM2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A retractable and durable measuring tape, perfect for building and renovation projects."
+},
+{
+  "name": "Paint Roller",
+  "image": "/building&renovation/image5.png",
+  "start_bid": 10,
+  "current_bid": 15,
+  "buy_now": 30,
+  "project_details": {
+      "condition": "New",
+      "colour": "White",
+      "item_length": 30,
+      "item_width": 10,
+      "item_height": 5,
+      "item_weight": 0.5,
+      "material": "Metal, Fabric",
+      "features": "Ergonomic, Durable",
+      "manufacturer": {
+          "brand": "Tool Masters",
+          "make": "Paint Roller",
+          "model": "TM2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "An ergonomic and durable paint roller, perfect for building and renovation projects."
+},
+{
+  "name": "Tractor",
+  "image": "/business&farmingIndustry/image1.png",
+  "start_bid": 5000,
+  "current_bid": 5500,
+  "buy_now": 10000,
+  "project_details": {
+      "condition": "New",
+      "colour": "Green",
+      "item_length": 300,
+      "item_width": 200,
+      "item_height": 250,
+      "item_weight": 2000,
+      "material": "Metal",
+      "features": "Powerful, Durable",
+      "manufacturer": {
+          "brand": "Farm Equipment",
+          "make": "Tractor",
+          "model": "FE2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Freight Shipping (7-14 days)",
+      "returns": "Returns accepted within 30 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A powerful and durable tractor, perfect for farming and industry."
+},
+{
+  "name": "Plow",
+  "image": "/business&farmingIndustry/image2.png",
+  "start_bid": 1000,
+  "current_bid": 1200,
+  "buy_now": 2000,
+  "project_details": {
+      "condition": "New",
+      "colour": "Red",
+      "item_length": 200,
+      "item_width": 100,
+      "item_height": 150,
+      "item_weight": 500,
+      "material": "Metal",
+      "features": "Durable, Efficient",
+      "manufacturer": {
+          "brand": "Farm Equipment",
+          "make": "Plow",
+          "model": "FE2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Freight Shipping (7-14 days)",
+      "returns": "Returns accepted within 30 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A durable and efficient plow, perfect for farming and industry."
+},
+{
+  "name": "Harvester",
+  "image": "/business&farmingIndustry/image3.png",
+  "start_bid": 8000,
+  "current_bid": 8500,
+  "buy_now": 15000,
+  "project_details": {
+      "condition": "New",
+      "colour": "Yellow",
+      "item_length": 400,
+      "item_width": 300,
+      "item_height": 350,
+      "item_weight": 3000,
+      "material": "Metal",
+      "features": "Powerful, Efficient",
+      "manufacturer": {
+          "brand": "Farm Equipment",
+          "make": "Harvester",
+          "model": "FE2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Freight Shipping (7-14 days)",
+      "returns": "Returns accepted within 30 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A powerful and efficient harvester, perfect for farming and industry."
+},
+{
+  "name": "Seed Drill",
+  "image": "/business&farmingIndustry/image4.png",  "start_bid": 2000,
+  "current_bid": 2500,
+  "buy_now": 4000,
+  "project_details": {
+      "condition": "New",
+      "colour": "Blue",
+      "item_length": 250,
+      "item_width": 150,
+      "item_height": 200,
+      "item_weight": 1000,
+      "material": "Metal",
+      "features": "Efficient, Durable",
+      "manufacturer": {
+          "brand": "Farm Equipment",
+          "make": "Seed Drill",
+          "model": "FE2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Freight Shipping (7-14 days)",
+      "returns": "Returns accepted within 30 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "An efficient and durable seed drill, perfect for farming and industry."
+},
+{
+  "name": "Irrigation System",
+  "image": "/business&farmingIndustry/image5.png",
+  "start_bid": 3000,
+  "current_bid": 3500,
+  "buy_now": 6000,
+  "project_details": {
+      "condition": "New",
+      "colour": "Silver",
+      "item_length": 500,
+      "item_width": 300,
+      "item_height": 100,
+      "item_weight": 1500,
+      "material": "Metal, Plastic",
+      "features": "Automated, Efficient",
+      "manufacturer": {
+          "brand": "Farm Equipment",
+          "make": "Irrigation System",
+          "model": "FE2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Freight Shipping (7-14 days)",
+      "returns": "Returns accepted within 30 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "An automated and efficient irrigation system, perfect for farming and industry."
+},
+{
+  "name": "Leather Jacket",
+  "image": "/clothing&fashion/image1.png",
+  "start_bid": 100,
+  "current_bid": 150,
+  "buy_now": 300,
+  "project_details": {
+      "condition": "New",
+      "colour": "Black",
+      "item_length": 70,
+      "item_width": 50,
+      "item_height": 5,
+      "item_weight": 2,
+      "material": "Leather",
+      "features": "Stylish, Durable",
+      "manufacturer": {
+          "brand": "Fashion Wear",
+          "make": "Jacket",
+          "model": "FW2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A stylish and durable leather jacket, perfect for any fashion enthusiast."
+},
+{
+  "name": "Designer Dress",
+  "image": "/clothing&fashion/image2.png",
+  "start_bid": 200,
+  "current_bid": 250,
+  "buy_now": 500,
+  "project_details": {
+      "condition": "New",
+      "colour": "Red",
+      "item_length": 120,
+      "item_width": 60,
+      "item_height": 5,
+      "item_weight": 1,
+      "material": "Silk",
+      "features": "Elegant, Comfortable",
+      "manufacturer": {
+          "brand": "Fashion Wear",
+          "make": "Dress",
+          "model": "FW2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "An elegant and comfortable designer dress, perfect for special occasions."
+},
+{
+  "name": "Running Shoes",
+"image": "/clothing&fashion/image3.png",
+  "start_bid": 50,
+  "current_bid": 75,
+  "buy_now": 150,
+  "project_details": {
+      "condition": "New",
+      "colour": "Blue",
+      "item_length": 30,
+      "item_width": 15,
+      "item_height": 10,
+      "item_weight": 0.8,
+      "material": "Mesh, Rubber",
+      "features": "Lightweight, Comfortable",
+      "manufacturer": {
+          "brand": "Fashion Wear",
+          "make": "Shoes",
+          "model": "FW2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "Lightweight and comfortable running shoes, perfect for athletes."
+},
+{
+  "name": "Woolen Scarf",
+  "image": "/clothing&fashion/image4.png",
+  "start_bid": 20,
+  "current_bid": 25,
+  "buy_now": 50,
+  "project_details": {
+      "condition": "New",
+      "colour": "Gray",
+      "item_length": 180,
+      "item_width": 30,
+      "item_height": 1,
+      "item_weight": 0.3,
+      "material": "Wool",
+      "features": "Warm, Soft",
+      "manufacturer": {
+          "brand": "Fashion Wear",
+          "make": "Scarf",
+          "model": "FW2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A warm and soft woolen scarf, perfect for winter."
+},
+{
+  "name": "Cashmere Sweater",
+  "image": "/clothing&fashion/image5.png",
+  "start_bid": 60,
+  "current_bid": 70,
+  "buy_now": 100,
+  "project_details": {
+      "condition": "New",
+      "colour": "Gray",
+      "item_length": 70,
+      "item_width": 45,
+      "item_height": 5,
+      "item_weight": 0.5,
+      "material": "Cashmere",
+      "features": "Soft, Warm",
+      "manufacturer": {
+          "brand": "Fashion Knitwear",
+          "make": "Sweater",
+          "model": "FW2021"
+      },
+      "year_made": 2021
+  },
+  "shipping": {
+      "shipping": "Standard Shipping (5-7 days)",
+      "returns": "Returns accepted within 14 days",
+      "payment": "Credit Card, PayPal"
+  },
+  "description": "A soft and warm cashmere sweater, perfect for cozy days and evenings."
+}
+]

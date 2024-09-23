@@ -145,6 +145,35 @@
       "description": "An energy-efficient LED floor lamp with adjustable height. Perfect for any room."
   },
   {
+    "name": "Soft Knit Throw Blanket",
+    "image": "/home&living/image6.png",
+    "start_bid": 30,
+    "current_bid": 40,
+    "buy_now": 60,
+    "project_details": {
+        "condition": "New",
+        "colour": "Beige",
+        "item_length": 150,
+        "item_width": 120,
+        "item_height": 1,
+        "item_weight": 0.5,
+        "material": "Knit",
+        "features": "Soft, Cozy",
+        "manufacturer": {
+            "brand": "Cozy Home",
+            "make": "Throw Blanket",
+            "model": "CH2021"
+        },
+        "year_made": 2021
+    },
+    "shipping": {
+        "shipping": "Standard Shipping (5-7 days)",
+        "returns": "Returns accepted within 14 days",
+        "payment": "Credit Card, PayPal"
+    },
+    "description": "Soft knit throw blanket in a neutral color. Perfect for cozy evenings on the couch."
+},
+  {
     "name": "Antique Pocket Watch",
     "image": "/antiques&collections/image1.png",
     "start_bid": 100,
@@ -288,6 +317,35 @@
         "payment": "Credit Card, PayPal"
     },
     "description": "A handcrafted antique silverware set, perfect for collectors and special occasions."
+},
+{
+    "name": "Antique Fountain Pen",
+    "image": "/antiques&collections/image6.png",
+    "start_bid": 50,
+    "current_bid": 70,
+    "buy_now": 120,
+    "project_details": {
+        "condition": "Used",
+        "colour": "Silver",
+        "item_length": 6,
+        "item_width": 1,
+        "item_height": 1,
+        "item_weight": 0.05,
+        "material": "Silver-plated",
+        "features": "Vintage, Elegant design",
+        "manufacturer": {
+            "brand": "Elegant Pens Co.",
+            "make": "Fountain Pen",
+            "model": "EP1920"
+        },
+        "year_made": 1920
+    },
+    "shipping": {
+        "shipping": "Standard Shipping (5-7 days)",
+        "returns": "Returns accepted within 14 days",
+        "payment": "Credit Card, PayPal"
+    },
+    "description": "An elegant silver-plated fountain pen with a vintage design. Perfect for collectors and writing enthusiasts."
 },
 {
   "name": "Abstract Painting",
@@ -435,6 +493,35 @@
   "description": "A unique handcrafted abstract metal wall art, perfect for modern home decor."
 },
 {
+    "name": "Wall Art Canvas Print",
+    "image": "/art/image6.png",
+    "start_bid": 40,
+    "current_bid": 50,
+    "buy_now": 80,
+    "project_details": {
+        "condition": "New",
+        "colour": "Multicolor",
+        "item_length": 60,
+        "item_width": 40,
+        "item_height": 2,
+        "item_weight": 1,
+        "material": "Canvas",
+        "features": "Modern, Vibrant",
+        "manufacturer": {
+            "brand": "Artistic Home",
+            "make": "Canvas Print",
+            "model": "AH2021"
+        },
+        "year_made": 2021
+    },
+    "shipping": {
+        "shipping": "Standard Shipping (5-7 days)",
+        "returns": "Returns accepted within 14 days",
+        "payment": "Credit Card, PayPal"
+    },
+    "description": "A modern and vibrant wall art canvas print to enhance your home decor."
+},
+{
   "name": "Baby Crib",
   "image": "/babyGear/image1.png",
   "start_bid": 150,
@@ -578,6 +665,35 @@
       "payment": "Credit Card, PayPal"
   },
   "description": "An automatic and safe baby swing, perfect for soothing your baby."
+},
+{
+    "name": "Baby Gear",
+    "image": "/babyGear/image6.png",
+    "start_bid": 120,
+    "current_bid": 180,
+    "buy_now": 250,
+    "project_details": {
+        "condition": "New",
+        "colour": "Blue",
+        "item_length": 50,
+        "item_width": 30,
+        "item_height": 40,
+        "item_weight": 10,
+        "material": "Fabric",
+        "features": "Adjustable, Comfortable",
+        "manufacturer": {
+            "brand": "Baby Comfort",
+            "make": "Baby Gear",
+            "model": "BC2022"
+        },
+        "year_made": 2022
+    },
+    "shipping": {
+        "shipping": "Express Shipping (2-3 days)",
+        "returns": "Returns accepted within 30 days",
+        "payment": "Credit Card, PayPal, Afterpay"
+    },
+    "description": "A new blue baby gear made of comfortable fabric, adjustable for different needs. Perfect for parents on the go."
 },
 {
   "name": "Classic Novel",
@@ -725,6 +841,35 @@
   "description": "A hardcover illustrated children's storybook, perfect for bedtime stories."
 },
 {
+    "name": "Luxury Pen",
+    "image": "/books&stationary/image6.png",
+    "start_bid": 50,
+    "current_bid": 60,
+    "buy_now": 100,
+    "project_details": {
+        "condition": "New",
+        "colour": "Silver",
+        "item_length": 15,
+        "item_width": 1,
+        "item_height": 1,
+        "item_weight": 0.1,
+        "material": "Metal",
+        "features": "Gold nib, Refillable",
+        "manufacturer": {
+            "brand": "Fine Writing Co.",
+            "make": "Fountain Pen",
+            "model": "FW2022"
+        },
+        "year_made": 2022
+    },
+    "shipping": {
+        "shipping": "Free Shipping (3-5 days)",
+        "returns": "Returns accepted within 30 days",
+        "payment": "Credit Card, PayPal, Cryptocurrency"
+    },
+    "description": "A luxury pen with a silver body and a gold nib, perfect for writing enthusiasts and collectors."
+  },
+{
   "name": "Electric Drill",
   "image": "/building&renovation/image1.png",
   "start_bid": 50,
@@ -870,6 +1015,35 @@
   "description": "An ergonomic and durable paint roller, perfect for building and renovation projects."
 },
 {
+    "name": "Paint Sprayer",
+    "image": "/building&renovation/image6.png",
+    "start_bid": 80,
+    "current_bid": 100,
+    "buy_now": 200,
+    "project_details": {
+        "condition": "New",
+        "colour": "Blue",
+        "item_length": 15,
+        "item_width": 5,
+        "item_height": 12,
+        "item_weight": 1.8,
+        "material": "Plastic",
+        "features": "Adjustable spray patterns, Easy to clean",
+        "manufacturer": {
+            "brand": "SprayTech",
+            "make": "Sprayer",
+            "model": "ST2022"
+        },
+        "year_made": 2022
+    },
+    "shipping": {
+        "shipping": "Express Shipping (3-5 days)",
+        "returns": "Returns accepted within 30 days",
+        "payment": "Credit Card, PayPal, Apple Pay"
+    },
+    "description": "A high-quality paint sprayer with adjustable spray patterns, ideal for various painting projects in building and renovation."
+  },
+{
   "name": "Tractor",
   "image": "/business&farmingIndustry/image1.png",
   "start_bid": 5000,
@@ -1014,6 +1188,35 @@
   "description": "An automated and efficient irrigation system, perfect for farming and industry."
 },
 {
+    "name": "Combine Harvester",
+    "image": "/business&farmingIndustry/image6.png",
+    "start_bid": 10000,
+    "current_bid": 10500,
+    "buy_now": 15000,
+    "project_details": {
+        "condition": "Refurbished",
+        "colour": "Yellow",
+        "item_length": 400,
+        "item_width": 250,
+        "item_height": 300,
+        "item_weight": 3000,
+        "material": "Aluminum",
+        "features": "High Capacity, Precision Harvesting",
+        "manufacturer": {
+            "brand": "AgriTech",
+            "make": "Harvester",
+            "model": "AH2023"
+        },
+        "year_made": 2023
+    },
+    "shipping": {
+        "shipping": "Standard Shipping (5-10 days)",
+        "returns": "Returns accepted within 20 days",
+        "payment": "Credit Card, Bank Transfer"
+    },
+    "description": "A high-capacity combine harvester with precision harvesting capabilities, suitable for large-scale farming operations."
+  },
+{
   "name": "Leather Jacket",
   "image": "/clothing&fashion/image1.png",
   "start_bid": 100,
@@ -1157,5 +1360,34 @@
       "payment": "Credit Card, PayPal"
   },
   "description": "A soft and warm cashmere sweater, perfect for cozy days and evenings."
-}
+},
+{
+    "name": "Silk Dress",
+    "image": "/clothing&fashion/image6.png",
+    "start_bid": 80,
+    "current_bid": 100,
+    "buy_now": 200,
+    "project_details": {
+        "condition": "New",
+        "colour": "Red",
+        "item_length": 65,
+        "item_width": 45,
+        "item_height": 3,
+        "item_weight": 1,
+        "material": "Silk",
+        "features": "Elegant, Comfortable",
+        "manufacturer": {
+            "brand": "Fashion Couture",
+            "make": "Dress",
+            "model": "FC2021"
+        },
+        "year_made": 2021
+    },
+    "shipping": {
+        "shipping": "Express Shipping (2-3 days)",
+        "returns": "Returns accepted within 30 days",
+        "payment": "Credit Card, PayPal, Apple Pay"
+    },
+    "description": "An elegant and comfortable silk dress, perfect for special occasions."
+  }
 ]

@@ -68,8 +68,18 @@ exports.postSearch = async (req, res) => {
     const { input, category } = req.body;
     console.log(`Received input: ${input}, category: ${category}`); // Debugging line
 
-    const searchCriteria = { 
-      name: { $regex: input, $options: 'i' }
+    // const searchCriteria = { 
+    //   name: { $regex: input, $options: 'i' }
+    // };
+
+    const searchCriteria = {
+      $or: [
+        { name: { $regex: input, $options: 'i' } },
+        { description: { $regex: input, $options: 'i' } },
+        { 'project_details.manufacturer.brand': { $regex: input, $options: 'i' } },
+        { 'project_details.manufacturer.make': { $regex: input, $options: 'i' } },
+        { 'project_details.manufacturer.model': { $regex: input, $options: 'i' } }
+      ]
     };
 
     if (category) {

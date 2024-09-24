@@ -11,6 +11,7 @@ program.version("1.0.0").description("CLI for managing auction items");
 
 async function connectToDB() {
   try {
+    console.log("Connecting to MongoDB...");
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -19,16 +20,22 @@ async function connectToDB() {
   } catch (err) {
     console.error("Error connecting to MongoDB", err);
   }
+
+  // Add a listener for disconnection events
+  mongoose.connection.on('disconnected', () => {
+    console.log('Disconnected from MongoDB');
+  });
+
 }
 
-async function disconnectFromDB() {
-  try {
-    await mongoose.connection.close();
-    console.log("Disconnected from MongoDB");
-  } catch (err) {
-    console.error("Error disconnecting from MongoDB", err);
-  }
-}
+// async function disconnectFromDB() {
+//   try {
+//     await mongoose.connection.close();
+//     console.log("Disconnected from MongoDB");
+//   } catch (err) {
+//     console.error("Error disconnecting from MongoDB", err);
+//   }
+// }
 
 program
   .command("seed")
@@ -170,4 +177,25 @@ program
     }
   });
 
+  // Search Data
+program
+  .command('search-auctions <name>')
+  .description('Search for auctions by name')
+  .action(async (name) => {
+    await connectToDB();
+    try {
+      const searchCriteria = { name: { $regex: name, $options: 'i' } }; // Case-insensitive search
+      const auctions = await AuctionItem.find(searchCriteria).maxTimeMS(10000); // Adjust the timeout value as needed
+      if (auctions.length > 0) {
+        console.log('Found auctions:', auctions);
+      } else {
+        console.log('No auctions found with the given title.');
+      }
+    } catch (error) {
+      console.error('Error searching for auctions:', error);
+    }
+  });
+
+
+  
 program.parse(process.argv);

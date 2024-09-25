@@ -15,7 +15,7 @@
           "material": "Wood",
           "features": "Handcrafted, Lightweight",
           "manufacturer": {
-              "brand": "Antique Designs",
+              "brand": "Home & Living Antique Designs",
               "make": "Classic Chair",
               "model": "AD200"
           },
@@ -44,7 +44,7 @@
           "material": "Fabric, Wood",
           "features": "Comfortable, Durable",
           "manufacturer": {
-              "brand": "Home Comfort",
+              "brand": "Home & Living Comfort",
               "make": "Luxury Sofa",
               "model": "HC2021"
           },
@@ -73,7 +73,7 @@
           "material": "Ceramic",
           "features": "Hand-painted, Elegant",
           "manufacturer": {
-              "brand": "Decor Art",
+              "brand": "Home & Living Decor Art",
               "make": "Classic Vase",
               "model": "DA2020"
           },
@@ -102,7 +102,7 @@
           "material": "Wood",
           "features": "Expandable, Durable",
           "manufacturer": {
-              "brand": "Home Comfort",
+              "brand": "Home & Living Comfort",
               "make": "Dining Set",
               "model": "HC2021"
           },
@@ -131,7 +131,7 @@
           "material": "Metal, Plastic",
           "features": "Energy-efficient, Adjustable",
           "manufacturer": {
-              "brand": "Bright Lights",
+              "brand": "Home & Living Bright Lights",
               "make": "Floor Lamp",
               "model": "BL2021"
           },
@@ -160,7 +160,7 @@
         "material": "Knit",
         "features": "Soft, Cozy",
         "manufacturer": {
-            "brand": "Cozy Home",
+            "brand": "Home & Living Cozy Home",
             "make": "Throw Blanket",
             "model": "CH2021"
         },

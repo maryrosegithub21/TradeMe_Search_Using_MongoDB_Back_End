@@ -10,7 +10,7 @@ router.delete('/:id', auctionControllers.deleteItem);
 
 // Marketplace
 router.post('/search', auctionControllers.postSearch);
-// router.post('/api/auctions/search', auctionControllers.postSearch);
+
 
 
 

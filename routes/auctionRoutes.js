@@ -8,5 +8,11 @@ router.get('/:id', auctionControllers.getItemById);
 router.put('/:id', auctionControllers.updateItem);
 router.delete('/:id', auctionControllers.deleteItem);
 
+// Marketplace
+router.post('/search', auctionControllers.postSearch);
+
+
+
+
 module.exports = router;
 

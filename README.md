@@ -53,3 +53,24 @@ Replace ```<id>``` with the actual ID of the item you want to delete. This comma
 
 ## Bash Commands:
 hese are the commands you type into your terminal to execute your CLI tool. They use the Node.js runtime to run your JavaScript code ```(script/cli.js)```.
+
+
+This file contains the implementation of a function getAllItems in the auctionControllers.js file. This function is responsible for retrieving all items from the database and returning them as a JSON response.
+
+Functionality:
+The getAllItems function performs the following tasks:
+
+Queries the database to fetch all items using the AuctionItem.find({}) method.
+Returns the fetched items as a JSON response using res.json(items).
+Handles any errors that occur during the database query and responds with a 500 status code along with an error message if an error occurs.
+Usage:
+To use this function, you can call it in your routes or endpoints to retrieve all items from the database.
+
+Error Handling:
+If an error occurs during the database query, the function will catch the error and respond with a 500 status code along with a message indicating the error: { message: 'Error fetching items' }.
+
+Dependencies:
+This function relies on the AuctionItem model, which is imported from the auctionItems.js file. Ensure that the AuctionItem model is properly defined and connected to the database before using this function.
+
+Note:
+Make sure to handle any potential errors that may arise from database connectivity issues, schema changes, or other unforeseen circumstances to ensure the reliability of this function.

@@ -78,11 +78,32 @@ exports.postSearch = async (req, res) => {
       ]
     };
 
+    // if (category) {
+    //   searchCriteria.$or = [
+    //     { 'project_details.manufacturer.brand': { $regex: category, $options: 'i' } },
+    //     { 'project_details.manufacturer.make': { $regex: category, $options: 'i' } }
+    //   ];
+    // }
+
+    // if (category) {
+    //   searchCriteria.$and = [
+    //     { category: { $regex: category, $options: 'i' } },
+    //     { $or: searchCriteria.$or }
+    //   ];
+    //   delete searchCriteria.$or;
+    // }
+
     if (category) {
-      searchCriteria.$or = [
-        { 'project_details.manufacturer.brand': { $regex: category, $options: 'i' } },
-        { 'project_details.manufacturer.make': { $regex: category, $options: 'i' } }
+      searchCriteria.$and = [
+        {
+          $or: [
+            { 'project_details.manufacturer.brand': { $regex: category, $options: 'i' } },
+            { 'project_details.manufacturer.make': { $regex: category, $options: 'i' } }
+          ]
+        },
+        { $or: searchCriteria.$or }
       ];
+      delete searchCriteria.$or;
     }
 
     console.log('Search criteria:', searchCriteria); // Debugging line
